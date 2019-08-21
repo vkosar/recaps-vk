@@ -1,13 +1,15 @@
+#pragma once
+
 struct ClipboardFormat
 {
-	UINT format;
-	HANDLE dataHandle;
+    UINT format;
+    HANDLE dataHandle;
 };
 
 struct ClipboardData
 {
-	int count;
-	ClipboardFormat* dataArray;
+    int count;
+    ClipboardFormat* dataArray;
 };
 
 
